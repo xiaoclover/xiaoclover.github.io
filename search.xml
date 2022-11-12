@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/clover/16107.html"/>
+      <url>/clover/16107.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>逃离妖市思维导图</title>
+      <link href="/clover/18555.html"/>
+      <url>/clover/18555.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="审美"><a href="#审美" class="headerlink" title="审美"></a>审美</h1><p><img src="https://bu.dusays.com/2022/10/14/63496331323b2.png" alt="审美.png"></p><h1 id="角色设计"><a href="#角色设计" class="headerlink" title="角色设计"></a>角色设计</h1><p><img src="https://bu.dusays.com/2022/10/14/63496272d9a18.png" alt="角色设计.png"></p><h1 id="故事背景类型"><a href="#故事背景类型" class="headerlink" title="故事背景类型"></a>故事背景类型</h1><p><img src="https://bu.dusays.com/2022/10/14/634963c5a3f21.png" alt="故事类型.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 思维导图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Blog</title>
+      <link href="/clover/32696.html"/>
+      <url>/clover/32696.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Page-Front-matter-用于页面配置"><a href="#Page-Front-matter-用于页面配置" class="headerlink" title="Page Front-matter 用于页面配置"></a>Page Front-matter 用于页面配置</h1><div class="table-wrap"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标籤、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块(默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</td></tr></tbody></table></div><h1 id="Post-Front-matter-用于文章页配置"><a href="#Post-Front-matter-用于文章页配置" class="headerlink" title="Post Front-matter 用于文章页配置"></a>Post Front-matter 用于文章页配置</h1><div class="table-wrap"><table><thead><tr><th align="left">写法</th><th>解释</th></tr></thead><tbody><tr><td align="left">title</td><td>【必需】文章标题</td></tr><tr><td align="left">date</td><td>【必需】文章创建日期</td></tr><tr><td align="left">updated</td><td>【可选】文章更新日期</td></tr><tr><td align="left">tags</td><td>【可选】文章标籤</td></tr><tr><td align="left">categories</td><td>【可选】文章分类</td></tr><tr><td align="left">keywords</td><td>【可选】文章关键字</td></tr><tr><td align="left">description</td><td>【可选】文章描述</td></tr><tr><td align="left">top_img</td><td>【可选】文章顶部图片</td></tr><tr><td align="left">cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</td></tr><tr><td align="left">comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td align="left">toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td align="left">toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td align="left">toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td align="left">copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td align="left">copyright_author</td><td>【可选】文章版权模块的<code>文章作者</code></td></tr><tr><td align="left">copyright_author_href</td><td>【可选】文章版权模块的<code>文章作者</code>链接</td></tr><tr><td align="left">copyright_url</td><td>【可选】文章版权模块的<code>文章连结</code>链接</td></tr><tr><td align="left">copyright_info</td><td>【可选】文章版权模块的<code>版权声明</code>文字</td></tr><tr><td align="left">mathjax</td><td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">katex</td><td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的<code>音乐</code> 配置</td></tr><tr><td align="left">highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</td></tr><tr><td align="left">aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr></tbody></table></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Blender逃离妖市</title>
+      <link href="/clover/24033.html"/>
+      <url>/clover/24033.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Blender-逃离妖市"><a href="#Blender-逃离妖市" class="headerlink" title="Blender 逃离妖市"></a>Blender 逃离妖市</h1><h3 id="第一章：介绍"><a href="#第一章：介绍" class="headerlink" title="第一章：介绍"></a>第一章：介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1·如何学习三维辅助</span><br><span class="line">介绍三维辅助：三维辅助是画师完成作品的一种辅助手段。三维的使用占比将影响最后的绘画效果。打个比方，基础的三维辅助，用三维物体摆个布局，人物摆个动作，在此基础上进行线稿绘制，将减少我们对透视和结构的思考。而中阶的三维辅助，则是会渲染出白膜效果，也就是我们绘画中说的AO，再去PS进行上色，这就是AO上色法。这样会减少我们对透视、结构、及空间感的思考。高阶的三维辅助，会将物体的材质信息弄到位，基本上可以画的东西会变得很少，如果自己手绘功底不够扎实，可能无法进行深入刻画，因为渲染出来的效果还不错，而自己完全画不出来这样的效果，又不知道如何处理的更像一张画。最后的作品反而很像一张三维作品，而非三维辅助的作品。所以各位根据自己的需求适当的使用三维辅助。而本课程 则是一个高阶的三维辅助，将会在三维上尽可能完善作品，希望大家找到属于自己的平衡点。</span><br><span class="line">2·参考图寻找及PureRef的运用</span><br><span class="line">3·设计思路及草图绘制</span><br></pre></td></tr></table></figure><h3 id="第二章：blender-建模基础"><a href="#第二章：blender-建模基础" class="headerlink" title="第二章：blender 建模基础"></a>第二章：blender 建模基础</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4·快速建模小房子（小案例）</span><br><span class="line">5·根据草图建模1</span><br><span class="line">6·根据草图建模2</span><br><span class="line">7·其他建模技巧</span><br></pre></td></tr></table></figure><h3 id="第三章：人物造型"><a href="#第三章：人物造型" class="headerlink" title="第三章：人物造型"></a>第三章：人物造型</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">8·DAZ基础</span><br><span class="line">9·DAZ动作调节</span><br><span class="line">10·MD服饰制作1</span><br><span class="line">11·MD服饰制作2</span><br></pre></td></tr></table></figure><h3 id="第四章-灯光调试"><a href="#第四章-灯光调试" class="headerlink" title="第四章 灯光调试"></a>第四章 灯光调试</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">12·环境贴图和天空节点的运用</span><br><span class="line">13·场景打光</span><br><span class="line">14·灯光雾的运用</span><br></pre></td></tr></table></figure><h3 id="第五章-材质绘制"><a href="#第五章-材质绘制" class="headerlink" title="第五章 材质绘制"></a>第五章 材质绘制</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">15·blender材质节点基础</span><br><span class="line">16·SP材质基础</span><br><span class="line">17·场景材质制作</span><br><span class="line">18·服装材质制作</span><br></pre></td></tr></table></figure><h3 id="第六章：渲染和导出"><a href="#第六章：渲染和导出" class="headerlink" title="第六章：渲染和导出"></a>第六章：渲染和导出</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">19·EEVEE渲染设置</span><br><span class="line">20·优化灯光设置</span><br><span class="line">21·CYCLES渲染</span><br></pre></td></tr></table></figure><h3 id="第七章：photoshop-合成及绘制"><a href="#第七章：photoshop-合成及绘制" class="headerlink" title="第七章：photoshop 合成及绘制"></a>第七章：photoshop 合成及绘制</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">22·图层混合模式与调整图层</span><br><span class="line">23·细节绘制1</span><br><span class="line">24·细节绘制2</span><br></pre></td></tr></table></figure><h1 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h1><p><img src="https://bu.dusays.com/2022/10/10/6344034d3d2fb.png" alt="三辅二场景制作.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Blender </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
