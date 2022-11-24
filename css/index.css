@@ -3265,7 +3265,7 @@ h1.page-title + .tag-cloud-list {
   vertical-align: text-bottom;
 }
 #runtime_span {
-  margin: 0 auto;
+  margin: 1rem auto;
   color: #fff;
 }
 #page-header {
