@@ -23,7 +23,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-left: -1rem;
+  margin-left: 1rem;
   font-size: 16px;
   color: #000;
 }
@@ -37,6 +37,8 @@
 .icon-tubiaozhizuomoban {
   font-size: 2rem !important;
   line-height: 22px;
+  text-align: center;
+  margin-top: 3px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -47,15 +49,16 @@
 }
 
 #bber-talk .li-style {
-  width: 100%;
+  width: auto;
   max-width: 100%;
   height: 25px;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   transition: 0.3s;
-  font-weight: 700;
+  font-weight: bold;
   margin: auto;
+  cursor: pointer;
   white-space: nowrap;
 }
 
@@ -275,7 +278,6 @@
 
 #bber .timeline ul li.bber-item:hover {
   border: 1px solid #3b70fc;
-  ;
 }
 
 #bber .bber-content-link {
