@@ -749,41 +749,6 @@ img.footer_mini_logo {
 }
 
 /* 音乐手机端适配 */
-/* @media screen and (max-width: 768px) {
-  .music-player {
-    position: absolute;
-    margin-top: 8rem;
-    width: 312px;
-  }
-
-  .music-player__main {
-    position: relative;
-    height: 350px;
-  }
-
-  .music__info .music__info--title {
-    padding-left: 126px;
-  }
-
-  .player-control__btns {
-    padding-left: 126px;
-  }
-
-  .music-player .progress {
-    width: 200px;
-    padding-left: 126px;
-  }
-
-  .music-player__controls {
-    width: 330px;
-    height: 130px;
-  }
-
-  .music-player__list {
-    position: relative;
-
-  }
-} */
 .aplayer-withlist {
   display: none;
 }
@@ -797,5 +762,215 @@ img.footer_mini_logo {
     display: block;
     margin-top: 98px !important;
     border-radius: 1rem !important;
+  }
+}
+
+
+
+/* 在线工具 */
+#article-container {
+  font-weight: 700;
+}
+
+.flink#article-container .flink-desc {
+  margin: 0.2rem 0px 0.5rem;
+}
+
+.flink#article-container .flink-list {
+  overflow: auto;
+  padding: 10px 10px 0px;
+  text-align: center;
+}
+
+.flink#article-container .flink-list>.flink-list-item {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 15px 7px;
+  width: calc(25% - 12px);
+  height: 90px;
+  border-radius: 5px;
+  line-height: 17px;
+  transform: translateZ(0px);
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 1200px) {
+  .flink#article-container .flink-list>.flink-list-item {
+    width: calc(25% - 12px) !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .flink#article-container .flink-list>.flink-list-item {
+    width: calc(33.3333% - 12px) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flink#article-container .flink-list>.flink-list-item {
+    width: calc(50% - 12px) !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flink#article-container .flink-list>.flink-list-item {
+    width: calc(100% - 12px) !important;
+  }
+}
+
+.flink#article-container .flink-list>.flink-list-item:hover {
+  background: rgb(0, 108, 242);
+  transform: scale(1.05);
+}
+
+.flink#article-container .flink-list>.flink-list-item a {
+  color: #363636;
+  text-decoration: none;
+}
+
+.flink#article-container .flink-list>.flink-list-item a img {
+  float: left;
+  margin: 15px 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  transition: all 0.3s ease 0s;
+}
+
+.flink#article-container .flink-list>.flink-list-item a .img-alt {
+  display: none;
+}
+
+.flink#article-container .flink-list>.flink-list-item a .flink-item-name {
+  display: block;
+  padding: 16px 10px 0px 0px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 1.43em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.flink#article-container .flink-list>.flink-list-item a .flink-item-desc {
+  display: block;
+  padding: 16px 10px 16px 0px;
+  height: 50px;
+  font-size: 0.93em;
+}
+
+.flink#article-container .flink-list {
+  padding: 0;
+  margin: 1rem -6px 0 -6px;
+  overflow-x: hidden;
+}
+
+.flink#article-container .flink-desc {
+  margin: 0;
+}
+
+.flink#article-container .flink-list>.flink-list-item a .flink-item-desc {
+  white-space: normal;
+  padding: 5px 10px 16px 0;
+  color: #363636;
+  text-align: left;
+  height: 40px;
+  text-overflow: ellipsis;
+  opacity: 0.7;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.flink#article-container .flink-list>.flink-list-item:hover a .flink-item-desc {
+  color: #fff;
+}
+
+.flink-list-item .flink-item-info {
+  max-width: 136px;
+  overflow: hidden;
+}
+
+.flink-list-item:hover .flink-item-info {
+  max-width: 100%;
+}
+
+.flink#article-container .flink-list>.flink-list-item a .flink-item-name {
+  text-align: left;
+  font-size: 19px;
+  color: #363636;
+}
+
+.flink#article-container .flink-list>.flink-list-item:hover a .flink-item-name {
+  color: #fff;
+}
+
+.flink#article-container .flink-list>.flink-list-item a {
+  display: flex;
+  border: none;
+}
+
+.flink#article-container .flink-list>.flink-list-item a:hover {
+  background: none;
+}
+
+/* 友链头像 */
+.flink#article-container .flink-list>.flink-list-item a img {
+  border-radius: 32px;
+  margin: 15px 20px 15px 15px;
+  transition: 0.3s;
+  background: #f7f9fe;
+  min-width: 60px;
+  min-height: 60px;
+}
+
+/* 悬浮状态头像 */
+.flink#article-container .flink-list>.flink-list-item:hover a img {
+  transition: 0.6s;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  margin: 0.5rem;
+  min-width: 0px;
+  min-height: 0px;
+}
+
+.flink#article-container .flink-list>.flink-list-item a span {
+  transition: 0.3s;
+}
+
+.flink#article-container .flink-list>.flink-list-item:hover a .flink-item-desc {
+  overflow: inherit;
+  width: 100%;
+}
+
+.flink#article-container .flink-list>.flink-list-item {
+  margin: 6px 6px;
+  transition: 0.3s;
+  border-radius: 12px;
+  transition-timing-function: ease-in-out;
+  position: relative;
+  width: calc(20% - 12px);
+  border: 1px solid #e3e8f7;
+  box-shadow: 0 8px 16px -4px #2c2d300c;
+  background: #fff;
+}
+
+.flink#article-container .flink-list>.flink-list-item:hover {
+  transform: scale(1);
+  background: #425AEF;
+  border: 1px solid #425AEF !important;
+  box-shadow: 0 8px 12px -3px #4259ef23 !important;
+}
+
+@media screen and (min-width: 1300px) {
+  .flink#article-container .flink-list>.flink-list-item:hover {
+    transform: scale(1.03);
+  }
+
+  .flink#article-container .flink-list>.flink-list-item:active {
+    transform: scale(0.97);
   }
 }
