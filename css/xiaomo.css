@@ -1,15 +1,15 @@
-@font-face {
-  font-family: 'SourceHanSansCN-Normal';
+/* @font-face {
+  font-family: 'MaokenAssortedSans-Lite';
   font-display: swap;
-  src: url('/fonts/SourceHanSansCN-Normal.ttf') format("truetype");
-}
+  src: url('/fonts/MaokenAssortedSans-Lite.ttf') format("truetype");
+} */
 
 /* 字体 */
 
-body {
-  font-family: SourceHanSansCN-Normal !important;
-  font-weight: 700;
-}
+/* body {
+  font-family: MaokenAssortedSans-Lite !important;
+  font-weight: normal;
+} */
 
 /* 主页 */
 .layout {
@@ -49,13 +49,42 @@ body {
 
 /*文章页卡片圆角*/
 .layout>div:first-child:not(.recent-posts) {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
-/* 背景 */
-/* #web_bg {
-  background: linear-gradient(180deg, #fff1eb, #ace0f9)
-} */
+/* 首页卡片圆角 */
+#aside-content .card-widget,
+#bber-talk,
+#container,
+#post .post-copyright,
+#recent-posts>.recent-post-item,
+#sta_chart,
+#statistic .item,
+.cardHover,
+.error404 #error-wrap .error-content,
+.layout>div:first-child:not(.recent-posts),
+.search-dialog {
+  border-radius: 12px;
+  box-shadow: none;
+  border: 1px solid #e0e3ed;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+}
+
+#aside-content .card-widget:hover,
+#bber-talk:hover,
+#container,
+#post .post-copyright:hover,
+#recent-posts>.recent-post-item:hover,
+#sta_chart,
+#statistic .item,
+.cardHover:hover,
+.error404 #error-wrap .error-content:hover,
+.layout>div:first-child:not(.recent-posts):hover,
+.search-dialog {
+  border-color: #4976f5;
+  box-shadow: none;
+}
 
 /* 标签 */
 #page h1.page-title {

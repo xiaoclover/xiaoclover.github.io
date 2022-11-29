@@ -6,12 +6,11 @@
   border-radius: 12px;
   box-shadow: 0 5px 12px -5px rgba(102, 68, 68, 0);
   display: flex;
-  transition: all 0.3s ease 0s;
-  margin: 1rem auto 0;
+  transition: 0.3s;
+  margin-bottom: 1rem;
   border: 1px solid #e3e8f7;
   align-items: center;
   height: 50px;
-  width: 100%;
 }
 
 [data-theme="dark"] #bbTimeList {
@@ -23,15 +22,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-left: 1rem;
+  margin: 0 1rem;
   font-size: 16px;
-  color: #000;
 }
 
 #bber-talk {
   width: 100%;
   height: 25px;
   line-height: 25px;
+  border: none;
 }
 
 .icon-tubiaozhizuomoban {
@@ -41,6 +40,7 @@
   margin-top: 3px;
   transition: 0.3s;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .icon-tubiaozhizuomoban:hover {
@@ -110,8 +110,7 @@
 
 #home_top {
   max-width: 1400px;
-  /* margin: auto; */
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   padding: 0 1.5rem;
 }
 
@@ -271,10 +270,6 @@
   width: 100%;
   margin-top: 10px;
 }
-
-/* #bber .bber-bottom .bber-reply {
-  cursor: url(/img/x2.cur), auto !important;
-} */
 
 #bber .timeline ul li.bber-item:hover {
   border: 1px solid #3b70fc;
