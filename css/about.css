@@ -15,6 +15,7 @@
   box-shadow: none !important;
   padding: 0 !important;
   background: transparent !important;
+  margin-bottom: 0.5rem;
 }
 
 #page:has(#about-page) .page-title {
@@ -92,7 +93,7 @@
 }
 
 .aboutsiteTips .mask {
-  height: 36px;
+  height: 39px;
   position: relative;
   overflow: hidden;
   margin-top: 4px;
@@ -102,7 +103,7 @@
   display: block;
   box-sizing: border-box;
   position: absolute;
-  top: 36px;
+  top: 40px;
   padding-bottom: var(--offset);
   background-size: 100% 100%;
   -webkit-background-clip: text;
@@ -369,6 +370,10 @@
     padding: 0 1rem !important;
     box-shadow: none !important;
     background: #f7f9fe;
+  }
+
+  .author-content-item.careers {
+    min-height: 218px !important;
   }
 }
 
