@@ -1,29 +1,72 @@
+[data-theme=light] {
+  --xiaomo-bberforter: rgba(60, 60, 67, 0.6);
+}
+
+[data-theme=dark] {
+  --xiaomo-bberforter: #a1a2b8;
+}
+
 /* home_essay_bar.css */
+div#home_top {
+  z-index: 1;
+  max-width: 1400px;
+  margin: 3px auto -3px;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 2000px) {
+  div#home_top {
+    max-width: 1400px;
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div#home_top {
+    padding: 10px 1.5rem 0 1.5rem;
+  }
+}
+
 #bbTimeList {
-  background: white;
+  background: #ebf2ed;
   color: #363636;
   padding: 0.5rem 1rem;
   border-radius: 12px;
   box-shadow: 0 5px 12px -5px rgba(102, 68, 68, 0);
   display: flex;
   transition: 0.3s;
-  margin-bottom: 1rem;
-  border: 1px solid #e3e8f7;
+  margin-bottom: 0.5rem;
+  border: 2px solid #e0e3ed;
   align-items: center;
   height: 50px;
 }
 
-[data-theme="dark"] #bbTimeList {
-  background: #000 !important;
+#bbTimeList:hover {
+  border: 2px solid #95e1d3;
+  box-shadow: 0 8px 12px -3px #4259ef23;
+}
+
+[data-theme=dark] #bbTimeList {
+  background: rgba(18, 18, 18, 0.8) !important;
+  border: 2px solid rgba(255, 255, 255, 0.7) !important;
+}
+
+[data-theme=dark] .icon-tubiaozhizuomoban,
+[data-theme=dark] #bbtalk,
+[data-theme=dark] .bber-gotobb,
+[data-theme=dark] #bber>section>ul>li>div .bber-info-from {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #bbtalk {
-  width: 100%;
   overflow: hidden;
+  width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap;
   margin: 0 1rem;
   font-size: 16px;
+  outline: none;
 }
 
 #bber-talk {
@@ -31,10 +74,11 @@
   height: 25px;
   line-height: 25px;
   border: none;
+  outline: none;
 }
 
 .icon-tubiaozhizuomoban {
-  font-size: 2rem !important;
+  font-size: 1.15rem !important;
   line-height: 22px;
   text-align: center;
   margin-top: 3px;
@@ -45,7 +89,12 @@
 
 .icon-tubiaozhizuomoban:hover {
   opacity: 0.8;
-  color: blue;
+  color: #48c0a3;
+}
+
+.bber-gotobb:hover {
+  opacity: 0.8;
+  color: #48c0a3;
 }
 
 #bber-talk .li-style {
@@ -62,9 +111,17 @@
   white-space: nowrap;
 }
 
-#bbTimeList:hover {
-  border: 1px solid #3b70fc;
-  box-shadow: 0 8px 12px -3px #4259ef23;
+#bber-talk .li-style:hover {
+  color: #48c0a3;
+  transition: 0.3s;
+}
+
+ul,
+li {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 @-webkit-keyframes rotate {
@@ -103,16 +160,6 @@
 
 
 /* essay_page.css */
-.layout {
-  max-width: 1400px !important;
-  padding: 1.5rem 1.5rem;
-}
-
-#home_top {
-  max-width: 1400px;
-  margin-top: 1rem;
-  padding: 0 1.5rem;
-}
 
 #page:has(#essay_page) {
   border: 0;
@@ -123,10 +170,6 @@
 
 #page:has(#essay_page) .page-title {
   display: none;
-}
-
-#web_bg~.page:has(#essay_page) {
-  background: #f7f9fe;
 }
 
 #bber .bber-container-img {
@@ -144,6 +187,7 @@
 
 #bber .bber-content-img img {
   object-fit: cover;
+  width: 100%;
   max-height: 100%;
   border-radius: 12px;
 }
@@ -186,7 +230,7 @@
 #bber .timeline ul li.bber-item {
   position: relative;
   width: 32%;
-  border: 1px solid #e3e8f7;
+  border: 2px solid #e3e8f7;
   border-radius: 12px;
   padding: 1rem 1rem 0.5rem;
   transition: all 0.3s ease 0s;
@@ -194,7 +238,7 @@
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  background: #fff;
+  background: #ebf2ed;
   box-shadow: 0 8px 16px -4px #2c2d300c;
   margin-right: 2%;
 }
@@ -272,7 +316,7 @@
 }
 
 #bber .timeline ul li.bber-item:hover {
-  border: 1px solid #3b70fc;
+  border: 2px solid #95e1d3;
 }
 
 #bber .bber-content-link {
@@ -291,7 +335,7 @@
 }
 
 #bber .bber-content-link:hover {
-  background-color: #3b70fc;
+  background-color: #48c0a3;
   color: #fff;
 }
 
@@ -420,8 +464,8 @@
 .author-content-item {
   width: 49%;
   border-radius: 24px;
-  background: #fff;
-  border: 1px solid #e3e8f7;
+  background: var(--xiaomo-card-bg);
+  border: 2px solid #e3e8f7;
   box-shadow: 0 8px 16px -4px #2c2d300c;
   position: relative;
   padding: 1rem 2rem;
@@ -429,7 +473,7 @@
 }
 
 .author-content-item.single {
-  width: 100%;
+  width: 99%;
 }
 
 .author-content-item .author-content-item-title {
@@ -515,7 +559,7 @@
 }
 
 .author-content-item .card-content .banner-button-group .banner-button:hover {
-  background: #425AEF !important;
+  background: #48c0a3 !important;
   color: #fff;
 }
 
@@ -573,6 +617,17 @@
 [data-theme="dark"] #bber .aplayer .aplayer-lrc:after {
   background: #fff;
   color: #363636;
+}
+
+[data-theme="dark"] #bber .timeline ul li.bber-item {
+  background: rgba(18, 18, 18, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+[data-theme="dark"] #bber .bber-content .datacont,
+[data-theme="dark"] #bber .bber-info .far.fa-clock,
+[data-theme="dark"] #bber .bber-info .datatime {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #bber .aplayer .aplayer-lrc p {

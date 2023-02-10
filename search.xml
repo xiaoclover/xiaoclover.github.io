@@ -4,41 +4,16 @@
   
     
     <entry>
-      <title>逃离妖市思维导图</title>
-      <link href="/clover/18555.html"/>
-      <url>/clover/18555.html</url>
+      <title>Hexo备忘录</title>
+      <link href="/clover/31320.html"/>
+      <url>/clover/31320.html</url>
       
-        <content type="html"><![CDATA[<h1 id="审美"><a href="#审美" class="headerlink" title="审美"></a>审美</h1><p><img src="https://bu.dusays.com/2022/10/14/63496331323b2.png" alt="审美.png"></p><h1 id="角色设计"><a href="#角色设计" class="headerlink" title="角色设计"></a>角色设计</h1><p><img src="https://bu.dusays.com/2022/10/14/63496272d9a18.png" alt="角色设计.png"></p><h1 id="故事背景类型"><a href="#故事背景类型" class="headerlink" title="故事背景类型"></a>故事背景类型</h1><p><img src="https://bu.dusays.com/2022/10/14/634963c5a3f21.png" alt="故事类型.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 设计 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 思维导图 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Blog</title>
-      <link href="/clover/32696.html"/>
-      <url>/clover/32696.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="Page-Front-matter-用于页面配置"><a href="#Page-Front-matter-用于页面配置" class="headerlink" title="Page Front-matter 用于页面配置"></a>Page Front-matter 用于页面配置</h1><div class="table-wrap"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标籤、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块(默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</td></tr></tbody></table></div><h1 id="Post-Front-matter-用于文章页配置"><a href="#Post-Front-matter-用于文章页配置" class="headerlink" title="Post Front-matter 用于文章页配置"></a>Post Front-matter 用于文章页配置</h1><div class="table-wrap"><table><thead><tr><th align="left">写法</th><th>解释</th></tr></thead><tbody><tr><td align="left">title</td><td>【必需】文章标题</td></tr><tr><td align="left">date</td><td>【必需】文章创建日期</td></tr><tr><td align="left">updated</td><td>【可选】文章更新日期</td></tr><tr><td align="left">tags</td><td>【可选】文章标籤</td></tr><tr><td align="left">categories</td><td>【可选】文章分类</td></tr><tr><td align="left">keywords</td><td>【可选】文章关键字</td></tr><tr><td align="left">description</td><td>【可选】文章描述</td></tr><tr><td align="left">top_img</td><td>【可选】文章顶部图片</td></tr><tr><td align="left">cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</td></tr><tr><td align="left">comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td align="left">toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td align="left">toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td align="left">toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td align="left">copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td align="left">copyright_author</td><td>【可选】文章版权模块的<code>文章作者</code></td></tr><tr><td align="left">copyright_author_href</td><td>【可选】文章版权模块的<code>文章作者</code>链接</td></tr><tr><td align="left">copyright_url</td><td>【可选】文章版权模块的<code>文章连结</code>链接</td></tr><tr><td align="left">copyright_info</td><td>【可选】文章版权模块的<code>版权声明</code>文字</td></tr><tr><td align="left">mathjax</td><td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">katex</td><td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的<code>音乐</code> 配置</td></tr><tr><td align="left">highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</td></tr><tr><td align="left">aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr></tbody></table></div><h1 id="哔哔数据参数释义"><a href="#数据参数释义" class="headerlink" title="数据参数释义" data-pjax-state=""></a>数据参数释义</h1><div class="table-wrap"><table><thead><tr><th align="center">参数</th><th align="center">备选值/类型</th><th align="center">释义</th></tr></thead><tbody><tr><td align="center">class_name</td><td align="center">String</td><td align="center">【可选】标识符，无实际意义，选填</td></tr><tr><td align="center">essay_list</td><td align="center">Array</td><td align="center">【必选】即刻短文数据列表</td></tr><tr><td align="center">essay_list.content</td><td align="center">String</td><td align="center">【必选】短文 文字内容</td></tr><tr><td align="center">essay_list.date</td><td align="center">Time</td><td align="center">【必选】短文发布时间 格式建议为 <code>2022/10/26 08:00:00</code></td></tr><tr><td align="center">essay_list.image</td><td align="center">Array</td><td align="center">【可选】短文图片内容, 可填写多张图片</td></tr><tr><td align="center">essay_list.from</td><td align="center">String</td><td align="center">【可选】短文 来自何处, 当然也可以填任何你想填写的标识</td></tr><tr><td align="center">essay_list.link</td><td align="center">String</td><td align="center">【可选】外部链接</td></tr><tr><td align="center">essay_list.aplayer</td><td align="center">Array</td><td align="center">【可选】aplayer 播放器的单曲音乐, 需 aplayer 支持</td></tr><tr><td align="center">essay_list.aplayer.server</td><td align="center">String</td><td align="center">【essay_list.aplayer 后必选】aplayer 服务商</td></tr><tr><td align="center">essay_list.aplayer.id</td><td align="center">String</td><td align="center">【essay_list.aplayer 后必选】单曲 id</td></tr></tbody></table></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h1><p><code>Hexo init</code>初始化博客<br><code>Hexo n 标题</code> 创建一篇文章<br><code>Hexo clean</code> 清理文件<br><code>Hexo g</code> 生成静态文件<br><code>Hexo gulp</code> 压缩代码<br><code>Hexo d</code> 部署博客<br><code>hexo server</code>启动本地服务<br><code>hexo render</code>渲染文件</p><hr><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: # 网站标题</span><br><span class="line">categories: # 分类(只能单线)</span><br><span class="line">  - category_1</span><br><span class="line">  - category_1_1</span><br><span class="line">  - category_1_1_1</span><br><span class="line">tags:  # 标签(可以多标)</span><br><span class="line">  - tag_1</span><br><span class="line">  - tag_2</span><br><span class="line">type: &quot;&quot; # 指定这个页面的类型(比如categories/tags)</span><br><span class="line">cover: # 封面图片,注意不能用../命令,双引号有无均可</span><br><span class="line">comments: # 评论开关 true/false</span><br><span class="line">date: # 创建时间</span><br><span class="line">updated:  # 更新时间</span><br><span class="line">description: # 网站描述</span><br><span class="line">aside: # 侧边栏开关</span><br><span class="line">top_img: # 文章banner图,如果有cover的话默认用的是cover(这个可以给_post之外的用),其隐藏前缀目录为</span><br><span class="line">           Website/public/注意格式应为:images/xxx,但是这样会使_posts里文章的相关文章封面失效,需要用URL</span><br></pre></td></tr></table></figure><h1 id="标签外挂（Tag-Plugins）"><a href="#标签外挂（Tag-Plugins）" class="headerlink" title="标签外挂（Tag Plugins）"></a>标签外挂（Tag Plugins）</h1><p class='div-border green'>Hexo 部分参数</p><h1 id="Page-Front-matter-用于页面配置"><a href="#Page-Front-matter-用于页面配置" class="headerlink" title="Page Front-matter 用于页面配置"></a>Page Front-matter 用于页面配置</h1><div class="table-wrap"><table><thead><tr><th>写法</th><th>解释</th></tr></thead><tbody><tr><td>title</td><td>【必需】页面标题</td></tr><tr><td>date</td><td>【必需】页面创建日期</td></tr><tr><td>type</td><td>【必需】标籤、分类和友情链接三个页面需要配置</td></tr><tr><td>updated</td><td>【可选】页面更新日期</td></tr><tr><td>description</td><td>【可选】页面描述</td></tr><tr><td>keywords</td><td>【可选】页面关键字</td></tr><tr><td>comments</td><td>【可选】显示页面评论模块(默认 true)</td></tr><tr><td>top_img</td><td>【可选】页面顶部图片</td></tr><tr><td>mathjax</td><td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td>aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr><tr><td>aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的 配置</td></tr><tr><td>highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</td></tr></tbody></table></div><h1 id="Post-Front-matter-用于文章页配置"><a href="#Post-Front-matter-用于文章页配置" class="headerlink" title="Post Front-matter 用于文章页配置"></a>Post Front-matter 用于文章页配置</h1><div class="table-wrap"><table><thead><tr><th align="left">写法</th><th>解释</th></tr></thead><tbody><tr><td align="left">title</td><td>【必需】文章标题</td></tr><tr><td align="left">date</td><td>【必需】文章创建日期</td></tr><tr><td align="left">updated</td><td>【可选】文章更新日期</td></tr><tr><td align="left">tags</td><td>【可选】文章标籤</td></tr><tr><td align="left">categories</td><td>【可选】文章分类</td></tr><tr><td align="left">keywords</td><td>【可选】文章关键字</td></tr><tr><td align="left">description</td><td>【可选】文章描述</td></tr><tr><td align="left">top_img</td><td>【可选】文章顶部图片</td></tr><tr><td align="left">cover</td><td>【可选】文章缩略图(如果没有设置top_img,文章页顶部将显示缩略图，可设为false/图片地址/留空)</td></tr><tr><td align="left">comments</td><td>【可选】显示文章评论模块(默认 true)</td></tr><tr><td align="left">toc</td><td>【可选】显示文章TOC(默认为设置中toc的enable配置)</td></tr><tr><td align="left">toc_number</td><td>【可选】显示toc_number(默认为设置中toc的number配置)</td></tr><tr><td align="left">toc_style_simple</td><td>【可选】显示 toc 简洁模式</td></tr><tr><td align="left">copyright</td><td>【可选】显示文章版权模块(默认为设置中post_copyright的enable配置)</td></tr><tr><td align="left">copyright_author</td><td>【可选】文章版权模块的<code>文章作者</code></td></tr><tr><td align="left">copyright_author_href</td><td>【可选】文章版权模块的<code>文章作者</code>链接</td></tr><tr><td align="left">copyright_url</td><td>【可选】文章版权模块的<code>文章连结</code>链接</td></tr><tr><td align="left">copyright_info</td><td>【可选】文章版权模块的<code>版权声明</code>文字</td></tr><tr><td align="left">mathjax</td><td>【可选】显示mathjax(当设置mathjax的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">katex</td><td>【可选】显示katex(当设置katex的per_page: false时，才需要配置，默认 false)</td></tr><tr><td align="left">aplayer</td><td>【可选】在需要的页面加载aplayer的js和css,请参考文章下面的<code>音乐</code> 配置</td></tr><tr><td align="left">highlight_shrink</td><td>【可选】配置代码框是否展开(true/false)(默认为设置中highlight_shrink的配置)</td></tr><tr><td align="left">aside</td><td>【可选】显示侧边栏 (默认 true)</td></tr></tbody></table></div><p><h1 id="哔哔数据参数释义"><a href="#数据参数释义" class="headerlink" title="数据参数释义" data-pjax-state=""></a>哔哔数据参数释义</h1></p><div class="table-wrap"><table><thead><tr><th align="center">参数</th><th align="center">备选值/类型</th><th align="center">释义</th></tr></thead><tbody><tr><td align="center">class_name</td><td align="center">String</td><td align="center">【可选】标识符，无实际意义，选填</td></tr><tr><td align="center">essay_list</td><td align="center">Array</td><td align="center">【必选】即刻短文数据列表</td></tr><tr><td align="center">essay_list.content</td><td align="center">String</td><td align="center">【必选】短文 文字内容</td></tr><tr><td align="center">essay_list.date</td><td align="center">Time</td><td align="center">【必选】短文发布时间 格式建议为 <code>2022/10/26 08:00:00</code></td></tr><tr><td align="center">essay_list.image</td><td align="center">Array</td><td align="center">【可选】短文图片内容, 可填写多张图片</td></tr><tr><td align="center">essay_list.from</td><td align="center">String</td><td align="center">【可选】短文 来自何处, 当然也可以填任何你想填写的标识</td></tr><tr><td align="center">essay_list.link</td><td align="center">String</td><td align="center">【可选】外部链接</td></tr><tr><td align="center">essay_list.aplayer</td><td align="center">Array</td><td align="center">【可选】aplayer 播放器的单曲音乐, 需 aplayer 支持</td></tr><tr><td align="center">essay_list.aplayer.server</td><td align="center">String</td><td align="center">【essay_list.aplayer 后必选】aplayer 服务商</td></tr><tr><td align="center">essay_list.aplayer.id</td><td align="center">String</td><td align="center">【essay_list.aplayer 后必选】单曲 id</td></tr></tbody></table></div><h1 id="收藏推荐页面参数"><a href="#收藏推荐页面参数" class="headerlink" title="收藏推荐页面参数"></a>收藏推荐页面参数</h1><table><thead><tr><th>参数</th><th>描述</th><th>默认值</th></tr></thead><tbody><tr><td>标题</td><td>作品的<code>名字</code></td><td>未知</td></tr><tr><td>链接</td><td>作品的详情页，填写后会显示<code>查看详情</code>按钮</td><td>无</td></tr><tr><td>背景</td><td>背景 <code>图片Url</code>（必须是图片，想要实现颜色可自行更改代码）</td><td>纯色#333</td></tr><tr><td>评分</td><td>范围 <code>0-5</code>，可以是小数，如3.5和3.1表示三星半，图标只有半星的）</td><td>0</td></tr><tr><td>评价</td><td>点评内容</td><td>此作品博主暂未作出评价</td></tr><tr><td>图标</td><td>左上角图标，请填写fontawsome图标</td><td>无</td></tr><tr><td>标签</td><td>右上角标签</td><td>无</td></tr><tr><td>宽度</td><td>卡片宽度，<code>需要填单位</code>，如：100px 或 10rem</td><td>220px</td></tr><tr><td>高度</td><td>卡片高度，要求同上</td><td>300px</td></tr></tbody></table>]]></content>
       
       
       <categories>
           
-          <category> 教程 </category>
+          <category> 博客相关 </category>
           
       </categories>
       
@@ -54,21 +29,77 @@
     
     
     <entry>
-      <title>Blender逃离妖市</title>
-      <link href="/clover/24033.html"/>
-      <url>/clover/24033.html</url>
+      <title>Blender笔记</title>
+      <link href="/clover/22972.html"/>
+      <url>/clover/22972.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Blender-逃离妖市"><a href="#Blender-逃离妖市" class="headerlink" title="Blender 逃离妖市"></a>Blender 逃离妖市</h1><h3 id="第一章：介绍"><a href="#第一章：介绍" class="headerlink" title="第一章：介绍"></a>第一章：介绍</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1·如何学习三维辅助</span><br><span class="line">介绍三维辅助：三维辅助是画师完成作品的一种辅助手段。三维的使用占比将影响最后的绘画效果。打个比方，基础的三维辅助，用三维物体摆个布局，人物摆个动作，在此基础上进行线稿绘制，将减少我们对透视和结构的思考。而中阶的三维辅助，则是会渲染出白膜效果，也就是我们绘画中说的AO，再去PS进行上色，这就是AO上色法。这样会减少我们对透视、结构、及空间感的思考。高阶的三维辅助，会将物体的材质信息弄到位，基本上可以画的东西会变得很少，如果自己手绘功底不够扎实，可能无法进行深入刻画，因为渲染出来的效果还不错，而自己完全画不出来这样的效果，又不知道如何处理的更像一张画。最后的作品反而很像一张三维作品，而非三维辅助的作品。所以各位根据自己的需求适当的使用三维辅助。而本课程 则是一个高阶的三维辅助，将会在三维上尽可能完善作品，希望大家找到属于自己的平衡点。</span><br><span class="line">2·参考图寻找及PureRef的运用</span><br><span class="line">3·设计思路及草图绘制</span><br></pre></td></tr></table></figure><h3 id="第二章：blender-建模基础"><a href="#第二章：blender-建模基础" class="headerlink" title="第二章：blender 建模基础"></a>第二章：blender 建模基础</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">4·快速建模小房子（小案例）</span><br><span class="line">5·根据草图建模1</span><br><span class="line">6·根据草图建模2</span><br><span class="line">7·其他建模技巧</span><br></pre></td></tr></table></figure><h3 id="第三章：人物造型"><a href="#第三章：人物造型" class="headerlink" title="第三章：人物造型"></a>第三章：人物造型</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">8·DAZ基础</span><br><span class="line">9·DAZ动作调节</span><br><span class="line">10·MD服饰制作1</span><br><span class="line">11·MD服饰制作2</span><br></pre></td></tr></table></figure><h3 id="第四章-灯光调试"><a href="#第四章-灯光调试" class="headerlink" title="第四章 灯光调试"></a>第四章 灯光调试</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">12·环境贴图和天空节点的运用</span><br><span class="line">13·场景打光</span><br><span class="line">14·灯光雾的运用</span><br></pre></td></tr></table></figure><h3 id="第五章-材质绘制"><a href="#第五章-材质绘制" class="headerlink" title="第五章 材质绘制"></a>第五章 材质绘制</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">15·blender材质节点基础</span><br><span class="line">16·SP材质基础</span><br><span class="line">17·场景材质制作</span><br><span class="line">18·服装材质制作</span><br></pre></td></tr></table></figure><h3 id="第六章：渲染和导出"><a href="#第六章：渲染和导出" class="headerlink" title="第六章：渲染和导出"></a>第六章：渲染和导出</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">19·EEVEE渲染设置</span><br><span class="line">20·优化灯光设置</span><br><span class="line">21·CYCLES渲染</span><br></pre></td></tr></table></figure><h3 id="第七章：photoshop-合成及绘制"><a href="#第七章：photoshop-合成及绘制" class="headerlink" title="第七章：photoshop 合成及绘制"></a>第七章：photoshop 合成及绘制</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">22·图层混合模式与调整图层</span><br><span class="line">23·细节绘制1</span><br><span class="line">24·细节绘制2</span><br></pre></td></tr></table></figure><h1 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h1><p><img src="https://bu.dusays.com/2022/10/10/6344034d3d2fb.png" alt="三辅二场景制作.png"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Blender-笔记"><a href="#Blender-笔记" class="headerlink" title="Blender 笔记"></a><strong>Blender 笔记</strong></h1><h4 id="自用快捷键"><a href="#自用快捷键" class="headerlink" title="自用快捷键"></a>自用快捷键</h4><p>透显模式：alt+z</p><p>工具栏；t</p><p>侧边栏：n</p><p>选择物体：鼠标左键</p><p>视图推进：滚轮</p><p>旋转视图：右键</p><p>平移视图：空格</p><p>菜单：w</p><p>物体非模态：d</p><p>全选物体：a</p><p>删除物体：x</p><p>新建物体：shift+a</p><p>移动物体：g</p><p>旋转物体：r</p><p>缩放物体：s</p><p>模式的切换：tab</p><p>切换视图：小键盘 1 正, 3 测, 7 顶</p><p>反向视图：ctrl+小键盘 1, 3, 7，</p><p>透显模式：alt+z</p>]]></content>
       
       
       <categories>
           
-          <category> 设计 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
       
         <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>逃离妖市思维导图</title>
+      <link href="/clover/18555.html"/>
+      <url>/clover/18555.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="审美"><a href="#审美" class="headerlink" title="审美"></a>审美</h1><p><img src="https://bu.dusays.com/2022/10/14/63496331323b2.png" alt="审美.png"></p><h1 id="角色设计"><a href="#角色设计" class="headerlink" title="角色设计"></a>角色设计</h1><p><img src="https://bu.dusays.com/2022/10/14/63496272d9a18.png" alt="角色设计.png"></p><h1 id="故事背景类型"><a href="#故事背景类型" class="headerlink" title="故事背景类型"></a>故事背景类型</h1><p><img src="https://bu.dusays.com/2022/10/14/634963c5a3f21.png" alt="故事类型.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Design </tag>
+            
+            <tag> 思维导图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Blender逃离妖市</title>
+      <link href="/clover/24033.html"/>
+      <url>/clover/24033.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Blender-逃离妖市"><a href="#Blender-逃离妖市" class="headerlink" title="Blender 逃离妖市"></a>Blender 逃离妖市</h1><h3 id="第一章：介绍"><a href="#第一章：介绍" class="headerlink" title="第一章：介绍"></a>第一章：介绍</h3><p><code>1·如何学习三维辅助</code></p><p style="text-align:justify;">介绍三维辅助：三维辅助是画师完成作品的一种辅助手段。三维的使用占比将影响最后的绘画效果。打个比方，基础的三维辅助，用三维物体摆个布局，人物摆个动作，在此基础上进行线稿绘制，将减少我们对透视和结构的思考。而中阶的三维辅助，则是会渲染出白膜效果，也就是我们绘画中说的 AO，再去 PS 进行上色，这就是 AO 上色法。这样会减少我们对透视、结构、及空间感的思考。高阶的三维辅助，会将物体的材质信息弄到位，基本上可以画的东西会变得很少，如果自己手绘功底不够扎实，可能无法进行深入刻画，因为渲染出来的效果还不错，而自己完全画不出来这样的效果，又不知道如何处理的更像一张画。最后的作品反而很像一张三维作品，而非三维辅助的作品。所以各位根据自己的需求适当的使用三维辅助。而本课程 则是一个高阶的三维辅助，将会在三维上尽可能完善作品，希望大家找到属于自己的平衡点。</p><p><code>2·参考图寻找及 PureRef 的运用</code><br><code>3·设计思路及草图绘制</code></p><h3 id="第二章：blender-建模基础"><a href="#第二章：blender-建模基础" class="headerlink" title="第二章：blender 建模基础"></a>第二章：blender 建模基础</h3><p><code>4·快速建模小房子（小案例）</code><br><code>5·根据草图建模1</code><br><code>6·根据草图建模2</code><br><code>7·其他建模技巧</code></p><h3 id="第三章：人物造型"><a href="#第三章：人物造型" class="headerlink" title="第三章：人物造型"></a>第三章：人物造型</h3><p><code>8·DAZ基础</code><br><code>9·DAZ动作调节</code><br><code>10·MD服饰制作1</code><br><code>11·MD服饰制作2</code></p><h3 id="第四章-灯光调试"><a href="#第四章-灯光调试" class="headerlink" title="第四章 灯光调试"></a>第四章 灯光调试</h3><p><code>12·环境贴图和天空节点的运用</code><br><code>13·场景打光</code><br><code>14·灯光雾的运用</code></p><h3 id="第五章-材质绘制"><a href="#第五章-材质绘制" class="headerlink" title="第五章 材质绘制"></a>第五章 材质绘制</h3><p><code>15·blender材质节点基础</code><br><code>16·SP材质基础</code><br><code>17·场景材质制作</code><br><code>18·服装材质制作</code></p><h3 id="第六章：渲染和导出"><a href="#第六章：渲染和导出" class="headerlink" title="第六章：渲染和导出"></a>第六章：渲染和导出</h3><p><code>19·EEVEE渲染设置</code><br><code>20·优化灯光设置</code><br><code>21·CYCLES渲染</code></p><h3 id="第七章：photoshop-合成及绘制"><a href="#第七章：photoshop-合成及绘制" class="headerlink" title="第七章：photoshop 合成及绘制"></a>第七章：photoshop 合成及绘制</h3><p><code>22·图层混合模式与调整图层</code><br><code>23·细节绘制1</code><br><code>24·细节绘制2</code></p><h1 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h1><p><img src="https://bu.dusays.com/2022/10/10/6344034d3d2fb.png" alt="三辅二场景制作.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 设计分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Design </tag>
             
             <tag> Blender </tag>
             

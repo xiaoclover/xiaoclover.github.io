@@ -74,3 +74,56 @@ if (document.querySelector('#bber-talk')) {
     },
   })
 }
+
+//标签条
+function tagsBarActive() {
+  var urlinfo = window.location.pathname
+  urlinfo = decodeURIComponent(urlinfo)
+  //console.log(urlinfo);
+  //判断是否是首页
+  if (urlinfo == '/') {
+    if (document.querySelector('#tags-bar')) {
+      document.getElementById('首页').classList.add('select')
+    }
+  } else {
+    // 验证是否是分类链接
+    var pattern = /\/tags\/.*?\//
+    var patbool = pattern.test(urlinfo)
+    //console.log(patbool);
+    // 获取当前的标签
+    if (patbool) {
+      var valuegroup = urlinfo.split('/')
+      //console.log(valuegroup[2]);
+      // 获取当前分类
+      var nowTag = valuegroup[2]
+      if (document.querySelector('#category-bar')) {
+        document.getElementById(nowTag).classList.add('select')
+      }
+    }
+  }
+}
+tagsBarActive()
+
+//切换夜间
+function switchDarkMode() {
+  const nowMode =
+    document.documentElement.getAttribute('data-theme') === 'dark'
+      ? 'dark'
+      : 'light'
+  if (nowMode === 'light') {
+    activateDarkMode()
+    saveToLocal.set('theme', 'dark', 2)
+    GLOBAL_CONFIG.Snackbar !== undefined &&
+      btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)
+  } else {
+    activateLightMode()
+    saveToLocal.set('theme', 'light', 2)
+    GLOBAL_CONFIG.Snackbar !== undefined &&
+      btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day)
+  }
+  // handle some cases
+  typeof utterancesTheme === 'function' && utterancesTheme()
+  typeof changeGiscusTheme === 'function' && changeGiscusTheme()
+  typeof FB === 'object' && window.loadFBComment()
+  typeof runMermaid === 'function' && window.runMermaid()
+}
