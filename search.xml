@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>AE方法</title>
+      <link href="/clover/55294.html"/>
+      <url>/clover/55294.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="AE复制合成图层"><a href="#AE复制合成图层" class="headerlink" title="AE复制合成图层"></a>AE复制合成图层</h2><h4 id="1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键-“Ctrl-D”-复制一个图层源。"><a href="#1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键-“Ctrl-D”-复制一个图层源。" class="headerlink" title="1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键 “Ctrl+D”, 复制一个图层源。"></a>1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键 “Ctrl+D”, 复制一个图层源。</h4><h4 id="2、选择时间轴上的图层，Ctrl-D-复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。"><a href="#2、选择时间轴上的图层，Ctrl-D-复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。" class="headerlink" title="2、选择时间轴上的图层，Ctrl+D 复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。"></a>2、选择时间轴上的图层，Ctrl+D 复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> After Effects </tag>
+            
+            <tag> Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo备忘录</title>
       <link href="/clover/31320.html"/>
       <url>/clover/31320.html</url>
@@ -45,9 +72,9 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> Design </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
