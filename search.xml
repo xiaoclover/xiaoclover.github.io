@@ -37,7 +37,7 @@
       <link href="/clover/55294.html"/>
       <url>/clover/55294.html</url>
       
-        <content type="html"><![CDATA[<h2 id="复制合成图层"><a href="#复制合成图层" class="headerlink" title="复制合成图层"></a>复制合成图层</h2><h4 id="1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键-“Ctrl-D”-复制一个图层源。"><a href="#1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键-“Ctrl-D”-复制一个图层源。" class="headerlink" title="1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键 “Ctrl+D”, 复制一个图层源。"></a>1、选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键 “Ctrl+D”, 复制一个图层源。</h4><h4 id="2、选择时间轴上的图层，Ctrl-D-复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。"><a href="#2、选择时间轴上的图层，Ctrl-D-复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。" class="headerlink" title="2、选择时间轴上的图层，Ctrl+D 复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。"></a>2、选择时间轴上的图层，Ctrl+D 复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层。</h4><h2 id="素材对齐"><a href="#素材对齐" class="headerlink" title="素材对齐"></a>素材对齐</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="复制合成图层"><a href="#复制合成图层" class="headerlink" title="复制合成图层"></a>复制合成图层</h2><p><strong>1.选择想要复制图层的图层，右击，弹出选择框，选择“在项目中显示图层源”，找到图层源，按快捷键 “Ctrl+D”, 复制一个图层源</strong></p><p><strong>2.选择时间轴上的图层，Ctrl+D 复制，选中图层源复制好的图层按住Alt键左键拖动到时间轴复制好的图层</strong></p><h2 id="素材自动排列"><a href="#素材自动排列" class="headerlink" title="素材自动排列"></a>素材自动排列</h2><p><strong>1.按Ctrl键，点选要排序的素材，需要排在前面的就先点选它</strong><br><strong>2.点击 动画&gt;关键帧辅助&gt;序列图层&gt;确定按钮</strong></p>]]></content>
       
       
       <categories>
